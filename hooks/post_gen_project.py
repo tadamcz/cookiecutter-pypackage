@@ -15,3 +15,7 @@ if __name__ == '__main__':
 
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
         remove_file('LICENSE')
+
+    print("Recommended:",
+          "    - install pre-commit hooks with `pre-commit install`",
+          sep='\n')
