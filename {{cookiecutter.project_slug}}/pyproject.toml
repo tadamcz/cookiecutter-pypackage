@@ -46,7 +46,7 @@ black = {extras = ["d"], version = "*"}
 {%- endif %}
 
 [tool.black]
-line-length = 100
+line-length = {{ cookiecutter.black_line_length }}
 
 [build-system]
 requires = ["poetry>=0.12"]
