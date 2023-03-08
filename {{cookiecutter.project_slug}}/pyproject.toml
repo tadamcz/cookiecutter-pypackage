@@ -35,6 +35,7 @@ click = "*"
 {%- endif %}
 
 [tool.poetry.group.dev.dependencies]
+bump2version = "*"
 coverage = "*"
 {% if cookiecutter.use_pytest == 'y' -%}
 pytest = ">=7.2.0"{% endif %}
