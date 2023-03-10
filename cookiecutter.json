@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "use_pytest": "y",
   "black_line_length": "100",
+  "dokku": "y",
   "command_line_interface": ["No command-line interface", "Click"],
   "open_source_license": ["Not open source", "MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GPL-3.0-only"],
   "_copy_without_render": [
