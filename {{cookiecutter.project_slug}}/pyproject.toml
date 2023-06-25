@@ -38,7 +38,9 @@ click = "*"
 bump2version = "*"
 coverage = "*"
 {% if cookiecutter.use_pytest == 'y' -%}
-pytest = ">=7.2.0"{% endif %}
+pytest = ">=7.2.0"
+pytest-pycharm = "*"
+{% endif %}
 black = {extras = ["d"], version = "*"}
 
 {% if cookiecutter.command_line_interface|lower == 'click' -%}
