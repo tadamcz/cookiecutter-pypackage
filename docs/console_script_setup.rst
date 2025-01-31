@@ -21,7 +21,7 @@ To use the console script in development:
 
     pip install -e projectdir
 
-'projectdir' should be the top level project directory with the pyproject.toml file
+'projectdir' should be the top level directory (project_directory) containing the pyproject.toml file
 
 The script will be generated with output for no arguments and --help.
 

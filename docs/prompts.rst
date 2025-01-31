@@ -20,6 +20,9 @@ github_username
 project_name
     The name of your new Python package project. This is used in documentation, so spaces and any characters are fine here.
 
+project_directory
+    The name of the directory that will contain your Python package. This can contain any valid filesystem characters.
+
 project_slug
     The namespace of your Python package. This should be Python import-friendly. Typically, it is the slugified version of project_name.
 
